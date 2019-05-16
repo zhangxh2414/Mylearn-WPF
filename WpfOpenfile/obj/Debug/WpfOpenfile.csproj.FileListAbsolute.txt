@@ -1,0 +1,15 @@
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\bin\Debug\WpfOpenfile.exe.config
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\bin\Debug\WpfOpenfile.exe
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\bin\Debug\WpfOpenfile.pdb
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.csprojAssemblyReference.cache
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\MainWindow.g.cs
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\App.g.cs
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile_MarkupCompile.cache
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile_MarkupCompile.lref
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\MainWindow.baml
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.g.resources
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.Properties.Resources.resources
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.csproj.GenerateResource.cache
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.csproj.CoreCompileInputs.cache
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.exe
+C:\Users\zhangxh2414\source\repos\WpfOpenfile\WpfOpenfile\obj\Debug\WpfOpenfile.pdb
