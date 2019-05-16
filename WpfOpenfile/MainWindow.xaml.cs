@@ -25,15 +25,15 @@ namespace WpfOpenfile
         {
             InitializeComponent();
         }
-
-        private void Btnopen_Click(object sender, RoutedEventArgs e)
+        private void Btnopen_Click_1(object sender, RoutedEventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Title = "选择IFC模型";
             dlg.FileName = "IFC Files";
             dlg.Filter = "IFC文件|*.ifc";
             if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                lbl_1.Content = "IFC路径：" + dlg.FileName;
+                txtbox.Text = "IFC file：" + dlg.FileName + "loaded";
             }
         }
     }
