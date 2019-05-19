@@ -4,19 +4,41 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfOpenfile"
+
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="400">
+        Title="MainWindow" Height="521.5" Width="624">
+
     <DockPanel Width="Auto" Height="Auto" LastChildFill="True" >
-        <StackPanel Width="Auto" Height="269" Background="LightGray" VerticalAlignment="Bottom">
-          
+        <StackPanel Width="Auto" Height="Auto" Background="LightGray" VerticalAlignment="top">
             <!--标签-->
             <Label Content="IFC路径：" Margin="0,10,0,0"></Label>
-            <TextBox Name="txtbox" Text=" "></TextBox>
+            <TextBox Height=" Auto" Name="txtbox" Text="{Binding FilePath}"></TextBox>
             <!--按钮-->
-            <Button Content="Open IFC File" Margin="0,2,0,0" Name="Btnopen" Click="Btnopen_Click_1"></Button>
+            <Button Command = "{Binding CmdOpen}" Content=" Open IFC File" Margin="0,2,0,0" Name="Btnopen1"></Button>
+            <Grid Background="LightBlue" Width="Auto" Height="382" Margin="0,20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="属性" FontSize="15" Grid.Row="0" Grid.Column="0" Margin="2" Height="30"></Label>
+                <DataGrid Margin="5" Grid.Row="1"
+                Name="TestDataGrid"
+                AutoGenerateColumns="False"
+                Grid.Column="0"
+                ItemsSource="{Binding DataList}"
+                CanUserAddRows="True"
+                VerticalGridLinesBrush="LightSteelBlue"
+                HorizontalGridLinesBrush="LightSteelBlue">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="参数名称" Binding="{Binding BasePropertyName}"/>
+                        <DataGridTextColumn Header="参数值" Binding="{Binding BasePropertyValue}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
         </StackPanel>
-        
+
     </DockPanel>
-        
- 
+
+
+
 </Window>
